@@ -39,9 +39,9 @@ from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 
-from grader import score_response
-from providers import GeminiProvider, OllamaProvider
-from questions import SAMPLE_QUESTIONS
+from cpsc4770final.grader import score_response
+from cpsc4770final.providers import GeminiProvider, OllamaProvider
+from cpsc4770final.questions import SAMPLE_QUESTIONS
 
 
 # ── CLI ────────────────────────────────────────────────────────────────────────
